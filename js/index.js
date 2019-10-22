@@ -98,7 +98,7 @@ function render() {
 
     total_time.innerHTML = Math.floor(data.duration / 60) + ':' + Math.floor(sec);
 
-    video_count.innerHTML = index + 1 + '/' + 2000//datas.length;
+    video_count.innerHTML = index + 1 + '/' + 40//datas.length;
 
     sep_left = Math.floor(450 / data.duration * data.timestamp);
     console.log(sep_left);
